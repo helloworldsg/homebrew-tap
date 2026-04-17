@@ -8,6 +8,7 @@ class K9t < Formula
 
   depends_on "jq"
   depends_on "bat"
+  depends_on "hl"
 
   on_intel do
     url "https://github.com/helloworldsg/k9t/releases/download/v0.2.0/k9t-macos-amd64.tar.gz"
