@@ -4,6 +4,10 @@ class K9t < Formula
   version "0.2.2"
   license "MIT"
 
+  depends_on "jq"
+  depends_on "bat"
+  depends_on "hl"
+
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/helloworldsg/k9t/releases/download/v0.2.2/k9t-macos-amd64.tar.gz"
