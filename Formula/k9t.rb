@@ -1,7 +1,7 @@
 class K9t < Formula
   desc "Terminal UI for Kubernetes"
   homepage "https://github.com/helloworldsg/k9t"
-  version "0.3.5"
+  version "0.3.6"
   license "MIT"
 
   depends_on "jq"
@@ -10,21 +10,21 @@ class K9t < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/helloworldsg/k9t/releases/download/v0.3.5/k9t-macos-amd64.tar.gz"
-      sha256 "2ae28a75d3e66ceda0e8ed7ff508a42febeaa01cf606e9783f0818a2dbcff24f"
+      url "https://github.com/helloworldsg/k9t/releases/download/v0.3.6/k9t-macos-amd64.tar.gz"
+      sha256 "2c3ef5899da97f8b43693ba6f900afe8b42876e876158e58de882b8dcf5d84ec"
     else
-      url "https://github.com/helloworldsg/k9t/releases/download/v0.3.5/k9t-macos-arm64.tar.gz"
-      sha256 "1c272613b12f3e38291ececa0e37f352bcba6506869895a7975d046c9bb265ad"
+      url "https://github.com/helloworldsg/k9t/releases/download/v0.3.6/k9t-macos-arm64.tar.gz"
+      sha256 "e309a5f27bddd136332092613137a53cb32e9ad75118e5ec09a52d1527554e52"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/helloworldsg/k9t/releases/download/v0.3.5/k9t-linux-amd64.tar.gz"
-      sha256 "089fe745a2139a3ef33f98db9b725078b79be12c8dc7c6a3785cc0a9813c933a"
+      url "https://github.com/helloworldsg/k9t/releases/download/v0.3.6/k9t-linux-amd64.tar.gz"
+      sha256 "c1be63a7856efd07f355ff615c2b20f32f0994ee408bd77672d557c8a6417bf4"
     else
-      url "https://github.com/helloworldsg/k9t/releases/download/v0.3.5/k9t-linux-arm64.tar.gz"
-      sha256 "7ce8e910470d14222f0e91b4442973c07dfd8b7437175422de9c72917f3440a8"
+      url "https://github.com/helloworldsg/k9t/releases/download/v0.3.6/k9t-linux-arm64.tar.gz"
+      sha256 "0754f8f270d6c677767b483ccec3973821563f6584d15dd84342547bed389819"
     end
   end
 
